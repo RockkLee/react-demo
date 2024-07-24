@@ -1,0 +1,42 @@
+/* src/components/TopNavBar/TopNavBar.module.css */
+.topNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.searchBar {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.searchButton {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}

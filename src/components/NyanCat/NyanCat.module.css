@@ -1,0 +1,13 @@
+/* src/components/NyanCat/NyanCat.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.gif {
+  width: 300px;
+  height: auto;
+}
